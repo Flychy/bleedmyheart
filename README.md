@@ -1,14 +1,13 @@
-# bleedmyheart
 
-Heartbleed Exploit Tool (CVE-2014-0160) - Python 2.7 Compatible
+# Heartbleed Exploit Tool (CVE-2014-0160) - Python 2.7 Compatible
 
-Overview
+## Overview
 
 This script is designed to test and potentially exploit the Heartbleed vulnerability (CVE-2014-0160) in TLS/SSL protocols. Heartbleed is a critical security flaw that allows attackers to read sensitive memory content from vulnerable servers.
 
 The script sends specially crafted TLS heartbeat requests to the target server and analyzes the server's response to determine whether it is vulnerable.
 
-Features
+## Features
 
 -Test TLS/SSL servers for the Heartbleed vulnerability.
 
@@ -18,7 +17,7 @@ Features
 
 -Python 2.7 compatible.
 
-Prerequisites
+## Prerequisites
 
 -Python 2.7
 
@@ -26,13 +25,15 @@ Prerequisites
 
 -Permissions to run the script (chmod +x script.py).
 
-Usage
+## Usage
 
 Basic Command Structure
 
+```python
 python script.py <server> [options]
+```
 
-Options
+## Options
 
 -p, --port (default: 443): Specify the TCP port.
 
@@ -44,18 +45,23 @@ Options
 
 -f, --filein: Provide a file with a list of targets.
 
-Examples
+## Examples
 
-Basic Heartbleed Test: python example.com -p 8443 
+Basic Heartbleed Test: 
 
-Output
+```python
+python example.com -p 8443 
+```
+## Output
 
 If the server is vulnerable, the script will display a message indicating that the Heartbeat response returned more data than expected.
 
 Verbose mode (-v) will display detailed information about the TLS communication.
 
-Disclaimer
+## Disclaimer
 
 This script is intended for educational and authorized security testing purposes only. Unauthorized use against systems you do not own or have explicit permission to test is illegal.
 
 Use responsibly!
+
+[LEARN MORE] (https://en.wikipedia.org/wiki/Heartbleed)
