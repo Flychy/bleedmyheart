@@ -1,5 +1,5 @@
 
-# Heartbleed Exploit Tool (CVE-2014-0160) - Python 2.7 Compatible
+# CVE-2014-0160
 
 ## Overview
 
