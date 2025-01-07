@@ -64,4 +64,4 @@ This script is intended for educational and authorized security testing purposes
 
 Use responsibly!
 
-[LEARN MORE] (https://en.wikipedia.org/wiki/Heartbleed)
+[LEARN MORE](https://en.wikipedia.org/wiki/Heartbleed)
