@@ -43,8 +43,6 @@ python script.py <server> [options]
 
 -v, --verbose: Enable detailed verbose output.
 
--f, --filein: Provide a file with a list of targets.
-
 ## Examples
 
 Basic Heartbleed Test: 
